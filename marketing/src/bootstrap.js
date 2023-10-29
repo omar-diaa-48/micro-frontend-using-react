@@ -1,8 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import App from './app'
 
 const mount = (el) => {
-    ReactDOM.render(<h1>Hi there!</h1>, el)
+    ReactDOM.render(<App />, el)
 }
 
 if (process.env.NODE_ENV === 'development') {
