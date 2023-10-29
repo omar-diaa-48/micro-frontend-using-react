@@ -6,4 +6,4 @@ const el = document.querySelector('#root')
 
 console.log({ el });
 
-ReactDOM.render((<App />, el))
+ReactDOM.render(<App />, el)
